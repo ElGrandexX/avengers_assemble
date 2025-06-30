@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Héroes Fundadores</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .hero-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .hero-card:hover {
+      transform: scale(1.03);
+    }
+
+    .hero-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Héroes Fundadores</h1>
+  </header>
+
+  <main class="container">
+    <div class="hero-card">
+      <img src="imagenes/iron man.jpg" alt="Iron Man" class="hero-img">
+      <div class="hero-name">Iron Man</div>
+      
+    </div>
+    <div class="hero-card">
+      <img src="imagenes/thor.jpg" alt="Thor" class="hero-img">
+      <div class="hero-name">Thor</div>
+     
+    </div>
+    <div class="hero-card">
+      <img src="imagenes/hulk.jpg" alt="Hulk" class="hero-img">
+      <div class="hero-name">Hulk</div>
+    </div>
+    <div class="hero-card">
+      <img src="imagenes/avispa.jpg" alt="Avispa" class="hero-img">
+      <div class="hero-name">Avispa</div>
+    </div>
+    <div class="hero-card">
+      <img src="imagenes/hormiga.jpg" alt="Hombre Hormiga" class="hero-img">
+      <div class="hero-name">Hombre Hormiga</div>
+    </div>
+  </main>
+
+</body>
+</html>
